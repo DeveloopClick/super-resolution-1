@@ -3,7 +3,7 @@ import tensorflow as tf
 from contextlib import contextmanager
 from PIL import Image
 
-from keras import backend as K
+import tensorflow.keras.backend as K
 from keras.utils.data_utils import OrderedEnqueuer
 
 
